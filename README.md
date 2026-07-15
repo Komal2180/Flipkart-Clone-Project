@@ -14,8 +14,10 @@ A simple Flipkart-inspired website built using HTML and CSS.
 - HTML5
 - CSS3
 
+
 ## Live Demo
-flipkart-clone-project-sta3.vercel.app
+
+[View Live Project](https://flipkart-clone-project-sta3.vercel.app)
 
 ## Author
 **Komal**

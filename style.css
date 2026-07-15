@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:  rgb(18, 84, 231);
+    border: 2px sold red;
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    display:flex;
+    align-items: center;
+   
+    
+}
+.logo img{
+    
+   width: 155px; 
+   padding: 0 27px;
+}
+
+nav ul {
+    
+    height: 58px;
+     display: flex;
+     justify-content: flex-starts;
+     align-items: center;
+}
+nav ul li{
+    list-style: none;
+     padding: 0 13px;
+}
+nav ul li a{
+    color: white;
+    
+    text-decoration: none;
+     font-family: "Raleway", sans-serif;
+    
+}
+nav ul li a:hover{
+   font-weight: bolder;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 493px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: "Raleway", sans-serif;
+    font-weight: 900s;
+}
+.slider{
+    padding: 8px 200px;
+}
+.slider img{
+      height: 327px;
+  width: 1012px;
+  /* padding: 8px 200px; */
+  border-radius: 19px;
+  display: block;
+}
+.card{
+    max-width:91vw;
+    margin: auto ;
+    /* background: gainsboro; */
+}
+.cards{
+    display: inline;
+}
+.card-items{
+    
+    display: inline-flex ;
+    justify-content:center ;
+    flex-direction:column;
+    margin: 9px 3px;
+    
+}
+.card-items img{
+    border-radius: 10px;
+}
+.card h2{
+     font-family: "Raleway", sans-serif;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.advertisement img{
+     display: inline-flex ;
+    /* justify-content:center ; */
+    margin: 9px 1px;
+    padding:0 3px ;
+    border-radius: 19px;
+}
+.skin-care{
+background: peachpuff;
+margin: 13px 61px;
+border-radius: 39px;
+}
+.fasion{
+background: oldlace;
+margin: 13px 61px;
+border-radius: 39px;
+}
+.Daily use{
+    padding: 10px 68px;
+}
+.product{
+    margin: 7px 60px;
+}
+.product img{
+    
+    padding: 0px 3px;
+  height: 328px;
+  width: 245px;
+}
+.products img{
+    padding: 0px 3px;
+  height: 352px;
+  width: 240px;
+}
+footer{
+    height: 12vh;
+    background: rgb(18, 84, 231);
+    color: white;
+     font-family: "Raleway", sans-serif;
+}
